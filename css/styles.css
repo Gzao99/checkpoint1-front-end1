@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap");
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Patrick Hand", cursive;
+}
+.logo {
+  height: 70px;
+  width: 120px;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+}
+
+
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  width: 100%;
+  background-color: darkkhaki;
+  font-family: "Patrick Hand", cursive;
+  color:white;
+}
+
+
+
+.links-menu {
+ 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span {
+  margin-right: 50px;
+  border: solid turquoise 2px;
+  border-radius: 20%;
+  padding: 5px 5px;
+}
+
+span:hover{
+  border-color: white;
+} 
+
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  height: 600px;
+  background-image: url(../img/fendadobiquini.png);
+  
+}
+
+
+.texto-banner{
+ display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+font-family: "Indie Flower", cursive;
+
+
+
+
+
+}
+
+@media (max-width:300px){
+  .curiosidades-cards{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.curiosidades {
+  margin-top: 150px;
+}
+.title-curiosidades {
+  margin-left: 250px;
+  font-family: "Indie Flower", cursive;
+}
+
+.curiosidades-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  
+}
+
+@media (max-width:300px) {
+
+  .curiosidades-cards {
+flex-direction: column;
+
+
+  }
+
+
+}
+
+.card{
+height: 300px;
+margin
+font-family: "Indie Flower", cursive;
+
+
+
+}
+
+
+
+.card1 {
+
+  font-family:"Patrick Hand", cursive;
+  border-radius:20px;
+  background-image: url(../img/hamburger.jpg);
+  width: 300px;
+  
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+
+}
+
+.card2 {
+  border-radius: 20px;
+  background-color: blue;
+  width: 300px;
+  background-image: url(../img/chun.jpg);
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left:20px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  
+
+}
+
+.card3 {
+  border-radius: 20px;
+ background-image: url(../img/siri.jpg);
+  width: 300px;
+  
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.video-player {
+ 
+}
+
+.icones-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: darkkhaki;
+  display: flex;
+  width: 100%;
+
+ 
+}
+
+
+
+.conteudo {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.texto-conteudo {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "Indie Flower", cursive;
+  color: black;
+  font-size: 20px;
+}
+
+.polygon {
+  width: 100px;
+  height: 100px;
+  margin-left: 350px;
+  margin-top: 125px;
+}
+
+.video-player {
+  
+}
+
+
+
+
+.title-footer{
+  width: 50%;
+}
+
+
+.linkedin {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+ margin-top: 50px;
+  margin-left: 125px;
+
+}
+
+
+.end-footer{
+  width: 50%;
+}
+
+
+.contato {
+  margin-left: 250px;
+}
+
+
+.git {
+  height: 100px;
+  width: 100px;
+  margin-left: 120px;
+  margin-top: 80px;
+  border-radius: 50%;
+}
+
+
+.texto-linkedin{
+  margin-left: 270px;
+
+}
+
+.github {
+margin-left: 270px;
+
+
+}
+
+a {
+  width: 50px;
+}
